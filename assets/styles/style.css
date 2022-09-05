@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+
+}
+
+/*header*/
+.jumbotron {
+   padding: 60px;
+   background-color: #395B64;
+   text-align: center;
+   font-size: 20px;
+   color: white;
+}
+
+nav {
+   background-color: #CEE5D0;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   text-align: center;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 50px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: #395B64;
+   cursor: pointer;
+}
+
+nav a:hover {
+   font-weight: bold;
+   color: red;
+}
+
+
+
+.bupati {
+   color: grey;
+   margin-top: 0px;
+}
+
+/*Body*/
+
+.left-content {
+   text-align: center;
+   width: 50%;
+   height: 100%;
+   /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+   float: left;
+
+}
+
+.right-content {
+   text-align: center;
+   width: 50%;
+   height: 100%;
+
+   /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+   float: right;
+}
+
+.imgBupati {
+   width: 30%;
+   height: 30%;
+}
+
+.content1 {
+   margin: 10px;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 30px;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+#content {
+   float: left;
+   width: 73%;
+   margin-top: 0;
+}
+.imgWisataKiri {
+   float: left;
+   width: 30%;
+   height: 20%;
+   margin-right: 10px;
+}
+.imgWisataKanan {
+   float: right;
+   width: 30%;
+   height: 20%;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+   .imgWisata{
+      width: 100%;
+      margin: 0 0 20px 0;
+   }
+}
+tr{
+   text-align: left;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   margin-top: 30px;
+   margin-bottom: 50;
+   height: auto;
+   border-radius: 20px;
+
+}
+
+.side {
+   margin-left: 20px;
+}
+
+h2 {
+   color: red;
+   text-align: center;
+}
+
+header {
+   display: inline;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+
+   #content,
+   aside {
+      width: 100%;
+      padding: 0;
+   }
+}
+
+h3 {
+   color: #00a2c6;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #395B64;
+   text-align: center;
+}
